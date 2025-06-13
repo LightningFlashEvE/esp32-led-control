@@ -19,27 +19,6 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
-/* ESP32 LED Control Web Server
-
-   This example creates a WiFi Access Point and HTTP server
-   to control LED connected to GPIO2 (D2) pin via web interface.
-*/
-
-#include <string.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <esp_log.h>
-#include <nvs_flash.h>
-#include <sys/param.h>
-#include "esp_netif.h"
-#include <esp_http_server.h>
-#include "esp_event.h"
-#include "esp_wifi.h"
-#include "esp_system.h"
-#include "driver/gpio.h"
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-
 #define LED_GPIO_PIN GPIO_NUM_2  // D2 pin on ESP32 DEVKIT_C
 #define WIFI_SSID "ESP32_LED_Control"
 #define WIFI_PASS "12345678"

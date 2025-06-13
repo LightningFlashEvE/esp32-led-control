@@ -160,7 +160,7 @@ CMAKE_INSTALL_MANDIR:PATH=
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/simple
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/led_control
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -358,9 +358,6 @@ PYTHON:UNINITIALIZED=C:\Users\Light\.espressif\python_env\idf5.1_py3.11_env\Scri
 //No help, variable specified on the command line.
 PYTHON_DEPS_CHECKED:UNINITIALIZED=1
 
-//No help, variable specified on the command line.
-SDKCONFIG:UNINITIALIZED=d:\vs_test\esp32\led\simple\sdkconfig
-
 //Allow unsafe builds. These builds ARE NOT SECURE.
 UNSAFE_BUILD:BOOL=OFF
 
@@ -402,15 +399,6 @@ mbedx509_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf
 
 //Dependencies for the target
 p256m_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_esp_hw_support;general;__idf_heap;general;__idf_log;general;__idf_soc;general;__idf_hal;general;__idf_esp_rom;general;__idf_esp_common;general;__idf_esp_system;general;__idf_xtensa;
-
-//Value Computed by CMake
-simple_BINARY_DIR:STATIC=D:/vs_test/esp32/led/simple/build
-
-//Value Computed by CMake
-simple_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-simple_SOURCE_DIR:STATIC=D:/vs_test/esp32/led/simple
 
 
 ########################
@@ -628,7 +616,7 @@ THREADS_HAVE_PTHREAD_ARG:INTERNAL=FALSE
 //CHECK_TYPE_SIZE: sizeof(time_t)
 TIME_T_SIZE:INTERNAL=8
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/simple
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/led_control
 //Compiler reason failure
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure
